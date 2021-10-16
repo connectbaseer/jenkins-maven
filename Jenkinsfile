@@ -1,7 +1,7 @@
 node{
 
     stage('Clone Repository'){
-        scm checkout
+        checkout scm
     }
 
     stage('Build Maven'){
