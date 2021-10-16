@@ -15,4 +15,8 @@ node{
         customImage.push()
     }
 
+    stage('Clean WS'){
+        deleteDir()
+    }
+
 }
